@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src"],
+      "@types/*": ["types"],
+      "@components/*": ["src/components"],
+      "@pages/*": ["src/pages"]
+    },
+    // использование более строгого вывода типов для свойств данных в `this`
+    "strict": true,
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "moduleResolution": "node"
+  }
+}

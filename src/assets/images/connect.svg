@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="lms-logo" version="1.1" viewBox="0 0 190 190">
+  <defs>
+    <style type="text/css">
+      /* LOGO BORDER */
+      #lms-logo-border {
+        transform-origin: right;
+        animation: rotate-out 0.4s ease-out both;
+      }
+
+      @keyframes rotate-out {
+        0% {
+          transform: translate3d(0, 0, 0) scale3d(0.3, 1, 1);
+          opacity: 0.01;
+        }
+
+        50% {
+          opacity: 0.01;
+        }
+
+        100% {
+          transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+          opacity: 1;
+        }
+      }
+
+      /* LOGO ARROW */
+      #lms-logo-arrow {
+        transform-origin: center right;
+        animation: fade-in 1s cubic-bezier(0.175, 0.885, 0.32, 1.3) both;
+        animation-delay: 0.3s;
+      }
+
+
+      @keyframes fade-in {
+        0% {
+          opacity: 0.01;
+          transform: translate3d(56px, 0, 0) scale3d(1, 0.3, 1);
+        }
+
+        20% {
+          opacity: 0.01;
+        }
+
+        100% {
+          transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+          opacity: 1;
+        }
+      }
+    </style>
+  </defs>
+  <path id="lms-logo-border" fill="none" stroke="url(#paint0_linear_399_136)" stroke-width="27"
+    d="M175.5 15.5h-160v160h160z" />
+  <path id="lms-logo-arrow" fill="#DE0A26" stroke-width=".9816"
+    d="M56.2518 94.6431 122.32 35.295v30.1777L91.9776 94.6431l30.3424 28.8277v32.5352z" />
+  <defs id="defs20">
+    <linearGradient id="paint0_linear_399_136" x1="93.5" x2="93.5" y1="13" y2="200" gradientTransform="translate(2 -11)"
+      gradientUnits="userSpaceOnUse">
+      <stop id="stop13" stop-color="#DE0A26" />
+      <stop id="stop15" offset=".3229" stop-color="#DE0A26" />
+      <stop id="stop17" offset="1" stop-color="#DE0A26" />
+    </linearGradient>
+  </defs>
+</svg>
